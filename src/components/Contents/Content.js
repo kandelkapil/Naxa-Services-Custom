@@ -49,10 +49,12 @@ const Content = () => {
                 <img className="icon" src={Icon} alt="" />
               </div>
               <div className="element-header">{item.title}</div>
-              <div className="element-desc-intro">{item.description1}</div>
+              <div className="element-desc-intro">
+                {item.description1.replace(/<\/?[^>]+(>|$)/g, "")}
+              </div>
               <div className="element-desc-main-container">
                 <div className="element-desc-main-wrapper">
-                  {item.description2}
+                  {item.description2.replace(/<\/?[^>]+(>|$)/g, "")}
                 </div>
               </div>
             </div>
