@@ -36,14 +36,14 @@
 
 .element-header {
   font-size: 1.5rem;
-  margin-bottom: 20px;
+  margin-bottom: 1.25rem;
   font-weight: 600;
   color: #333132;
 }
 
 .element-desc-intro {
   width: 31.25rem;
-  font-size: 0.785rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   color: #333132;
   font-weight: 400;
@@ -52,16 +52,18 @@
 .element-desc-main-container {
   margin: 30px 0 40px;
   width: 100%;
-  height: 22rem;
+  height: 23rem;
+  line-height: 18.8333px;
   background: #e9ebff;
   display: flex;
 }
 
 .element-desc-main-wrapper {
   width: 90%;
+  height: auto;
   margin: auto;
   margin-top: 5%;
-  font-size: 0.785rem;
+  font-size: 0.8rem;
   line-height: 1.5;
   font-weight: 400;
   color: #7c7c7c;
@@ -75,9 +77,9 @@
 }
 
 .image {
-  width: 200px;
+  width: 12.5rem;
 }
 .icon {
-  width: 50px;
+  width: 3.125rem;
   margin-bottom: 1rem;
 }
